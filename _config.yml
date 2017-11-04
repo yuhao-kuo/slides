@@ -31,6 +31,8 @@ permalink: /:title/
 paginate: 6
 paginate_path: /page:num/
 
+slides_dir: _slides
+
 include: [_slides]
 
 # Tracker
