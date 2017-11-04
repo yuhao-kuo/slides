@@ -26,10 +26,12 @@ copyright:
    link: 'https://yuhao-kuo.github.io'
 
 # Build settings
-markdown: kramdown
+#markdown: kramdown
 permalink: /:title/
 paginate: 6
 paginate_path: /page:num/
+
+include: [_slides]
 
 # Tracker
 analytics: UA-83979019-1
