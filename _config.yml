@@ -1,61 +1,44 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
-
 # Site settings
 title: yuhao's maps
-email: st40201@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  Webjeda Cards is a Bootstrap based jekyll theme for portfolio, photography or any kind of blog.
-  
-  
-  
+description: Is my slides home page.
 baseurl: "/slides" # the subpath of your site, e.g. /blog
-url: "https://yuhao-kuo.github.io/slides" # the base hostname & protocol for your site
+url: "https://yuhao-kuo.github.io" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
-#sidebar
-default-image: webjeda-logo-big.jpg # If there is no featured image in a post then this image will be showed. Also on all pages this image will be showed. Use a 500x250 image.
-
-#footer
-#built-by: yuhao-kuo
-copyright:
-   name: yuhao.kuo
-   link: 'https://yuhao-kuo.github.io'
+# User settings
+username: yuhao-kuo
+user_description: Anon Developer at Lorem Ipsum Dolor
+email: st40201@gmail.com
+twitter_username: yuhao.kuo
+github_username:  yuhao-kuo
+gplus_username:  
+disqus_username: 
 
 # Build settings
 #markdown: kramdown
+highlighter: rouge
 permalink: /:title/
-paginate: 6
-paginate_path: /page:num/
 
-slides_dir: _slides
+
+# html minify
+compress_html:
+  clippings: all
+  comments: all
+  endings: []
+  profile: false
+
+# Links to include in menu navigation
+# For external links add external: true
+links:
+  - title: Home
+    url: /
+ # - title: Series
+ #   url: /series
+  - title: Tags
+    url: /tags
+  - title: About Me
+    url: /about
 
 include: [_slides]
 
-# Tracker
-analytics: UA-83979019-1
-
-# Comments
-disqus-shortname: webjeda-demo
-
-#social
-facebook: http://www.facebook.com/yuhao.kuo.tw
-quora: 
-twitter: http://twitter.com/@yuhao.kuo
-github: http://github.com/yuhao-kuo
-
-#facebook like box
-#fb-app-id: 549480635219583
-#fb-page-url: https://www.facebook.com/webjeda/
-#fb-page-title: webjeda
-
-# Sass style
-sass:
-  style: compressed
-
-# Ruby Gems
-gems: [jekyll-paginate, jekyll-seo-tag]
-
+# exclude my node related stuff
+exclude: ['package.json', 'src', 'node_modules']

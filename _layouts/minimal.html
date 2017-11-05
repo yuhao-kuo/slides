@@ -7,10 +7,14 @@ layout: compress
     {% include cards-jekyll-template/head.html %}
     <body>
         {% include cards-jekyll-template/svg-icons.html %}
-        {% include cards-jekyll-template/header-default.html %}
-            <section class="content">
+        {% include cards-jekyll-template/header-post.html %}
+        <section class="post">
+
+            <article id="post" class="post-content" role="main" itemprop="mainContentOfPage">
                 {{ content }}
-            </section>
-        {% include cards-jekyll-template/footer.html %}
+            </article>
+
+            {% include cards-jekyll-template/footer.html %}
+        </section>
     </body>
 </html>
