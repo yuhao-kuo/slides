@@ -1,12 +1,12 @@
 # Site settings
-title: yuhao's maps
-description: Is my slides home page.
+title: yuhao's map
+description: Is yuhao-kuo slides home page.
 baseurl: "/slides" # the subpath of your site, e.g. /blog
 url: "https://yuhao-kuo.github.io" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
 # User settings
 username: yuhao-kuo
-user_description: Anon Developer at Lorem Ipsum Dolor
+user_description: 
 email: st40201@gmail.com
 twitter_username: yuhao.kuo
 github_username:  yuhao-kuo
@@ -30,13 +30,12 @@ compress_html:
 # For external links add external: true
 links:
   - title: Home
-    url: /
- # - title: Series
- #   url: /series
-  - title: Tags
-    url: /tags
+    url: /../
   - title: About Me
-    url: /about
+    url: /../about/
+  - title: Blog
+    url: /../blog/
+  
 
 include: [_slides]
 
